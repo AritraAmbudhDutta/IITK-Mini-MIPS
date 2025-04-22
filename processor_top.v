@@ -7,7 +7,7 @@ input ins_we,data_we;
 output [31:0] processor_out;
 output done;
 
-// Existing wires and registers...
+// Wires and registers
 wire [31:0] PC_out,ins_out,data_write;
 reg [31:0] PC_in;
 reg [9:0] data_write_addr; reg [9:0] data_read_addr;
@@ -31,7 +31,7 @@ wire [31:0] temp_addr;
 reg [31:0] jump_addr; 
 wire jump;
 
-// New floating-point related signals
+// Floating-point related signals
 wire FP_op, FP_RegWrite, mtc1, mfc1;
 wire [31:0] FP_Data1, FP_Data2, FP_WriteData;
 wire [31:0] converted_bin, converted_float;
