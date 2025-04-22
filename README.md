@@ -79,6 +79,7 @@ The processor is implemented with pipeline stages, forwarding logic, and hazard 
 ## Contributors
 
 **Aritra Ambudh Dutta**
+**Suryansh Verma**
 
 ## Acknowledgements
 
